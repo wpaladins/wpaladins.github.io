@@ -1,28 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Wpaladins&#39;s Blog</title>
+<search> 
   
-  <link href="/atom.xml" rel="self"/>
-  
-  <link href="http://blog.wpaladins.cn/"/>
-  <updated>2017-05-06T18:14:48.000Z</updated>
-  <id>http://blog.wpaladins.cn/</id>
-  
-  <author>
-    <name>wpaladins</name>
     
-  </author>
-  
-  <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Codewars20170506</title>
-    <link href="http://blog.wpaladins.cn/code/Codewars20170506/"/>
-    <id>http://blog.wpaladins.cn/code/Codewars20170506/</id>
-    <published>2017-05-06T12:25:56.000Z</published>
-    <updated>2017-05-06T18:14:48.000Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>
+    <entry>
+      <title><![CDATA[Codewars20170506]]></title>
+      <url>/code/Codewars20170506/</url>
+      <content type="html"><![CDATA[<a id="more"></a>
 <p><strong><em>Article introduction</em></strong>:This is a article to list Kata in Codewars with my remark that I think it is amazing! All of following Python code is running by Python2.7!</p>
 <hr>
 <h1 id="First-Kata-Don’t-rely-on-luck-6kyu"><a href="#First-Kata-Don’t-rely-on-luck-6kyu" class="headerlink" title="First Kata: Don’t rely on luck.6kyu"></a>First Kata: Don’t rely on luck.<code>6kyu</code></h1><h2 id="Train-details"><a href="#Train-details" class="headerlink" title="Train details:"></a>Train details:</h2><p>请猛戳下方链接看题：</p>
@@ -54,32 +37,30 @@
 </blockquote>
 <p><strong><em>remark</em></strong>:<code>or</code>和<code>and</code>其实就相当于二进制运算中的<code>或运算</code>和<code>与运算</code>！对表达式<code>n % i</code>的直接判断使得<code>if not</code>发挥了作用，而不是使用<code>if</code>判断表达式<code>n % i</code>是不是等于<code>0</code>，这里逻辑比较复杂！<code>python</code>的代码行数越少，证明写代码的人越强大！膜这位大神！</p>
 ]]></content>
+      
+        <categories>
+            
+            <category> code </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> code </tag>
+            
+            <tag> python </tag>
+            
+            <tag> Codewars </tag>
+            
+        </tags>
+        
+    </entry>
     
-    <summary type="html">
-    
-      The code for Kata in Codewars On May 6, 2017!
-    
-    </summary>
-    
-      <category term="code" scheme="http://blog.wpaladins.cn/categories/code/"/>
-    
-    
-      <category term="code" scheme="http://blog.wpaladins.cn/tags/code/"/>
-    
-      <category term="python" scheme="http://blog.wpaladins.cn/tags/python/"/>
-    
-      <category term="Codewars" scheme="http://blog.wpaladins.cn/tags/Codewars/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello-Hexo</title>
-    <link href="http://blog.wpaladins.cn/life/Hello-Hexo/"/>
-    <id>http://blog.wpaladins.cn/life/Hello-Hexo/</id>
-    <published>2017-05-06T08:55:19.000Z</published>
-    <updated>2017-05-06T18:22:52.000Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>
+    <entry>
+      <title><![CDATA[Hello-Hexo]]></title>
+      <url>/life/Hello-Hexo/</url>
+      <content type="html"><![CDATA[<a id="more"></a>
 <p>建立博客的目的：</p>
 <ul>
 <li>是为了将希望记住但不容易记住的东西记住；</li>
@@ -123,20 +104,24 @@
 <hr>
 <pre><code>最后，自我期待我接下来的博文！Thanks for Watching!
 </code></pre>]]></content>
+      
+        <categories>
+            
+            <category> life </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> life </tag>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+        
+    </entry>
     
-    <summary type="html">
-    
-      The first article in this blog!
-    
-    </summary>
-    
-      <category term="life" scheme="http://blog.wpaladins.cn/categories/life/"/>
-    
-    
-      <category term="life" scheme="http://blog.wpaladins.cn/tags/life/"/>
-    
-      <category term="Hexo" scheme="http://blog.wpaladins.cn/tags/Hexo/"/>
-    
-  </entry>
   
-</feed>
+  
+</search>
