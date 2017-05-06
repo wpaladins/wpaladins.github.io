@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="en">
   <head>
     
 <meta charset="UTF-8"/>
@@ -18,7 +18,7 @@
 
 
 
-  <link rel="alternate" href="/default" title="Wpaladins's Blog">
+  <link rel="alternate" href="/atom.xml" title="Wpaladins's Blog">
 
 
 
@@ -97,6 +97,33 @@
         </li>
       </a>
     
+      <a href="/tags/">
+        <li class="mobile-menu-item">
+          
+          
+            Tags
+          
+        </li>
+      </a>
+    
+      <a href="/categories/">
+        <li class="mobile-menu-item">
+          
+          
+            Categories
+          
+        </li>
+      </a>
+    
+      <a href="/about/">
+        <li class="mobile-menu-item">
+          
+          
+            About
+          
+        </li>
+      </a>
+    
   </ul>
 </nav>
 
@@ -113,7 +140,7 @@
           <a class="menu-item-link" href="/">
             
             
-              首页
+              Home
             
           </a>
         </li>
@@ -122,7 +149,34 @@
           <a class="menu-item-link" href="/archives/">
             
             
-              归档
+              Archives
+            
+          </a>
+        </li>
+      
+        <li class="menu-item">
+          <a class="menu-item-link" href="/tags/">
+            
+            
+              Tags
+            
+          </a>
+        </li>
+      
+        <li class="menu-item">
+          <a class="menu-item-link" href="/categories/">
+            
+            
+              Categories
+            
+          </a>
+        </li>
+      
+        <li class="menu-item">
+          <a class="menu-item-link" href="/about/">
+            
+            
+              About
             
           </a>
         </li>
@@ -151,7 +205,7 @@
 
       <div class="post-meta">
         <span class="post-time">
-          2017年5月6日
+          May 6, 2017
         </span>
       </div>
     </header>
@@ -163,39 +217,14 @@
       
         
         
+          
+        
 
         
-          <p><strong><em>Article introduction</em></strong>:This is a article to list Kata in Codewars with my remark that I think it is amazing! All of following Python code is running by Python2.7!</p>
-<hr>
-<h1 id="First-Kata-Don’t-rely-on-luck-6kyu"><a href="#First-Kata-Don’t-rely-on-luck-6kyu" class="headerlink" title="First Kata: Don’t rely on luck.6kyu"></a>First Kata: Don’t rely on luck.<code>6kyu</code></h1><h2 id="Train-details"><a href="#Train-details" class="headerlink" title="Train details:"></a>Train details:</h2><p>请猛戳下方链接看题：</p>
-<p><a href="https://www.codewars.com/kata/dont-rely-on-luck/" target="_blank" rel="external">https://www.codewars.com/kata/dont-rely-on-luck/</a></p>
-<h2 id="My-solution"><a href="#My-solution" class="headerlink" title="My solution:"></a>My solution:</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">guess = <span class="number">1</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">randint</span> <span class="params">(h,a)</span>:</span></div><div class="line">    <span class="keyword">return</span> <span class="number">1</span></div></pre></td></tr></table></figure>
-<p><strong><em>remark</em></strong>:题目中通过<code>from random import randint</code>语句来引入<code>randint</code>，所以巧妙利用了调用时候直接使用<code>randint</code>来调用的漏洞！</p>
-<h2 id="Amazing-solution-1"><a href="#Amazing-solution-1" class="headerlink" title="Amazing solution 1:"></a>Amazing solution 1:</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">randint,guess=<span class="keyword">lambda</span> x,y:<span class="number">666</span>,<span class="number">666</span></div></pre></td></tr></table></figure>
-<p>&amp;<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">guess, randint = <span class="number">10</span>, <span class="keyword">lambda</span> *a: guess</div></pre></td></tr></table></figure></p>
-<p><strong><em>remark</em></strong>:第一个solution中，逗号操作符，以及lambda匿名函数的妙用。果真666！第二个solution更666，直接把<code>lambda</code>放在了<code>guess</code>后面，让<code>lambda</code>返回值为<code>guess</code>，数字只出现了一次！</p>
-<h2 id="Amazing-solution-2"><a href="#Amazing-solution-2" class="headerlink" title="Amazing solution 2:"></a>Amazing solution 2:</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> random <span class="keyword">import</span> randint,seed</div><div class="line">seed(<span class="number">1</span>)</div><div class="line">guess = randint(<span class="number">1</span>,<span class="number">100</span>)</div><div class="line">seed(<span class="number">1</span>)</div></pre></td></tr></table></figure>
-<blockquote>
-<p><code>random.seed()</code>函数用于指定随机数生成所用算法开始的整数值，如果使用相同的<code>random.seed()</code>值，则每次生成的随机数都相同，如果不设置这个值，则系统根据时间来自己选择这个值，此时每次生成的随机数因时间差异而不同。</p>
-</blockquote>
-<p><strong><em>remark</em></strong>:这应该是出题者想看到的答案吧！</p>
-<h2 id="Amazing-solution-3"><a href="#Amazing-solution-3" class="headerlink" title="Amazing solution 3:"></a>Amazing solution 3:</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> random <span class="keyword">import</span> randint</div><div class="line"></div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">CheatingNumber</span>:</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__eq__</span><span class="params">(self, x)</span>:</span></div><div class="line">        <span class="keyword">return</span> <span class="keyword">True</span></div><div class="line"></div><div class="line">guess = CheatingNumber()</div></pre></td></tr></table></figure>
-<p><strong><em>remark</em></strong>:看不懂！:flushed:但是觉得很厉害！</p>
-<h2 id="Amazing-solution-4"><a href="#Amazing-solution-4" class="headerlink" title="Amazing solution 4:"></a>Amazing solution 4:</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> random <span class="keyword">import</span> randint, getstate, setstate</div><div class="line">st = getstate()</div><div class="line">guess = randint(<span class="number">1</span>,<span class="number">100</span>)</div><div class="line">setstate(st)</div></pre></td></tr></table></figure>
-<blockquote>
-<p><code>random.getstat()</code>函数返回获取当前内部生成器的状态；<code>random.setstat()</code>函数用来还原内部生成器的状态。</p>
-</blockquote>
-<p><strong><em>remark</em></strong>:记录下状态，有意思，学到了！</p>
-<h1 id="Second-Kata-Find-the-divisors-6kyu"><a href="#Second-Kata-Find-the-divisors-6kyu" class="headerlink" title="Second Kata: Find the divisors!6kyu"></a>Second Kata: Find the divisors!<code>6kyu</code></h1><h2 id="Train-details-1"><a href="#Train-details-1" class="headerlink" title="Train details:"></a>Train details:</h2><p>请猛戳下方链接看题：</p>
-<p><a href="https://www.codewars.com/kata/find-the-divisors" target="_blank" rel="external">https://www.codewars.com/kata/find-the-divisors</a></p>
-<h2 id="My-solution-1"><a href="#My-solution-1" class="headerlink" title="My solution:"></a>My solution:</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">divisors</span><span class="params">(integer)</span>:</span></div><div class="line">	a = []</div><div class="line">	<span class="keyword">for</span> x <span class="keyword">in</span> range (<span class="number">2</span>,integer):</div><div class="line">		<span class="keyword">if</span> integer % x == <span class="number">0</span>:</div><div class="line">			a.append(x)</div><div class="line">	<span class="keyword">if</span> a == []:</div><div class="line">		<span class="keyword">return</span> str(integer)+<span class="string">" is prime"</span></div><div class="line">	<span class="keyword">else</span>:</div><div class="line">		<span class="keyword">return</span> a</div></pre></td></tr></table></figure>
-<p><strong><em>remark</em></strong>:C语言还在我心中根深蒂固！</p>
-<h2 id="Amazing-solution-1-1"><a href="#Amazing-solution-1-1" class="headerlink" title="Amazing solution 1:"></a>Amazing solution 1:</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">divisors</span><span class="params">(n)</span>:</span></div><div class="line">    <span class="keyword">return</span> [i <span class="keyword">for</span> i <span class="keyword">in</span> xrange(<span class="number">2</span>, n) <span class="keyword">if</span> <span class="keyword">not</span> n % i] <span class="keyword">or</span> <span class="string">'%d is prime'</span> % n</div></pre></td></tr></table></figure>
-<blockquote>
-<p><code>python</code>中的<code>and</code>和<code>or</code>运算符都是从左至右以此判断每一个表达式。<code>and</code>返回找到的第一个为假的表达式。如果表达式全部为真则返回最后一个表达式，<code>or</code>返回第一个为真的表达式，如果表达式全部为假则返回最后一个表达式。</p>
-</blockquote>
-<p><strong><em>remark</em></strong>:<code>or</code>和<code>and</code>其实就相当于二进制运算中的<code>或运算</code>和<code>与运算</code>！对表达式<code>n % i</code>的直接判断使得<code>if not</code>发挥了作用，而不是使用<code>if</code>判断表达式<code>n % i</code>是不是等于<code>0</code>，这里逻辑比较复杂！<code>python</code>的代码行数越少，证明写代码的人越强大！膜这位大神！</p>
-
+          <p>The code for Kata in Codewars On May 6, 2017!</p>
+          <div class="read-more">
+            <a href="/code/Codewars20170506/" class="read-more-link">Read more..</a>
+          </div>
         
       
     </div>
@@ -218,7 +247,7 @@
 
       <div class="post-meta">
         <span class="post-time">
-          2017年5月6日
+          May 6, 2017
         </span>
       </div>
     </header>
@@ -230,51 +259,14 @@
       
         
         
+          
+        
 
         
-          <p>建立博客的目的：</p>
-<ul>
-<li>是为了将希望记住但不容易记住的东西记住；</li>
-<li>也是为了防止自己重复踩同样的坑；</li>
-<li>为了能够帮助别人不要进入相应的坑。</li>
-</ul>
-<p>希望能对来这里看我博客的人有所帮助！</p>
-<p>Welcome！Thanks！</p>
-<p>博文第一篇，介绍一下本博客的搭建过程。</p>
-<p>其实在这个博客之前，本人还有一个博客：<a href="http://blog.turing.ml" target="_blank" rel="external">http://blog.turing.ml</a><br>是由<code>wordpress</code>+<code>lnmp</code>+<code>digitalocean</code>搭建，但是由于博文书写方面不便，文件管理费事，存储位置可靠性低等原因，使得许久没有放心使用，也就没有使用。</p>
-<h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><p>通过朋友的博客：<a href="http://blog.wo-class.cn" target="_blank" rel="external">http://blog.wo-class.cn</a> 认识到了<code>Hexo</code>的好处，于是开始转投<code>Hexo</code>+<code>gh-pages</code>博客环境。</p>
-<p>由于网上已经有很多关于<code>Hexo</code>+<code>gh-pages</code>博客搭建的教程了，所以在这里不多搭建过程，只是说说我的理解，方便日后的使用：</p>
-<ol>
-<li><p><code>Hexo</code>是一个<code>静态</code>网页文件的生成工具，<code>cli</code>形式;</p>
-</li>
-<li><p><code>Hexo</code>官网<a href="https://hexo.io/zh-cn/" target="_blank" rel="external">https://hexo.io/zh-cn/</a> 有中文版本的<code>文档</code>；</p>
-</li>
-<li><p><code>Hexo</code>官网中<code>文档</code>非常详细，为了更好地使用，建议将<code>文档</code>全部阅读一遍，不过也要选择性阅读。</p>
-</li>
-</ol>
-<h2 id="小总结"><a href="#小总结" class="headerlink" title="小总结"></a>小总结</h2><h3 id="根目录下的文件夹的作用："><a href="#根目录下的文件夹的作用：" class="headerlink" title="根目录下的文件夹的作用："></a>根目录下的文件夹的作用：</h3><ul>
-<li><code>source</code>：存放建立的markdown文件以及想要使用的图片等资源文件：<ul>
-<li>使用路径<code>/</code>来表示<code>source</code>目录，就比如<code>source</code>目录下有一个图片名为<code>a.jpg</code>，则在<code>markdown</code>中可以使用路径<code>/a.jpg</code>来找到这个图片；</li>
-<li><code>source</code>文件夹中的文件，如果可以被渲染，则渲染之后将生成的<code>html</code>等文件存放至根目录下<code>public</code>文件夹中，如果不能被渲染则直接将文件移动到根目录下的<code>public</code>文件夹中；</li>
-</ul>
-</li>
-<li><code>public</code>：存放<code>hexo generate</code>命令生成的文件，生成的过程也就是渲染文件，移动文件的过程；</li>
-<li><code>scaffolds</code>：存放了通过<code>hexo new &lt;layout&gt; &#39;filename&#39;</code>命令来创建文件时文件初始化状态的模板文件，这也是<code>hexo new &lt;layout&gt; &#39;filename&#39;</code>命令的意义所在。</li>
-</ul>
-<h3 id="根目录下的文件的作用："><a href="#根目录下的文件的作用：" class="headerlink" title="根目录下的文件的作用："></a>根目录下的文件的作用：</h3><ul>
-<li><code>_config.yml</code>:<code>Hexo</code>的主要配置文件；</li>
-</ul>
-<h3 id="themes目录的作用："><a href="#themes目录的作用：" class="headerlink" title="themes目录的作用："></a><code>themes</code>目录的作用：</h3><ul>
-<li>官方<code>Docs</code>中的<code>自定义</code>即为<code>themes</code>文件夹的制作方法；</li>
-<li><code>themes</code>目录下存放了以主题名称为名称的文件夹。文件夹中存放了类似根目录中一样的文件夹和文件，作用与根目录下的文件相同，相互配合，另外：<ul>
-<li>主题目录下的<code>layout</code>文件夹：定义渲染时所使用的页面整体排版；</li>
-<li>主题目录下的<code>language</code>文件夹：通过<code>.yml</code>或者<code>.json</code>定义对所使用语言的转换。</li>
-</ul>
-</li>
-</ul>
-<hr>
-<pre><code>最后，自我期待我接下来的博文！Thanks for Watching!
-</code></pre>
+          <p>The first article in this blog!</p>
+          <div class="read-more">
+            <a href="/life/Hello-Hexo/" class="read-more-link">Read more..</a>
+          </div>
         
       
     </div>
@@ -339,7 +331,6 @@
     
     
     
-      
       <a href="/atom.xml" class="iconfont icon-rss" title="rss"></a>
     
   </div>
@@ -347,11 +338,11 @@
 
 <div class="copyright">
   <span class="power-by">
-    由 <a class="hexo-link" href="https://hexo.io/">Hexo</a> 强力驱动
+    Powered by <a class="hexo-link" href="https://hexo.io/">Hexo</a>
   </span>
   
   <span class="theme-info">
-    主题 - 
+    Theme - 
     <a class="theme-link" href="https://github.com/ahonn/hexo-theme-even">Even</a>
   </span>
 
