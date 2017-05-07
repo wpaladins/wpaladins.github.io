@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.wpaladins.cn/"/>
-  <updated>2017-05-07T09:32:19.000Z</updated>
+  <updated>2017-05-07T09:32:55.000Z</updated>
   <id>http://blog.wpaladins.cn/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Codewars --_20170506</title>
+    <title>Code20170506</title>
     <link href="http://blog.wpaladins.cn/code/Codewars_20170506/"/>
     <id>http://blog.wpaladins.cn/code/Codewars_20170506/</id>
     <published>2017-05-06T12:25:56.000Z</published>
-    <updated>2017-05-07T09:32:19.000Z</updated>
+    <updated>2017-05-07T09:32:55.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <p><strong><em>Article introduction</em></strong>:This is a article to list Kata in Codewars with my remark that I think it is amazing! All of following Python code is running by Python2.7!</p>
