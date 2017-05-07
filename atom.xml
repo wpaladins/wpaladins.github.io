@@ -77,7 +77,7 @@
     <link href="http://blog.wpaladins.cn/life/Hello_Hexo/"/>
     <id>http://blog.wpaladins.cn/life/Hello_Hexo/</id>
     <published>2017-05-06T08:55:19.000Z</published>
-    <updated>2017-05-07T10:34:42.000Z</updated>
+    <updated>2017-05-07T10:36:16.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <p>建立博客的目的：</p>
@@ -122,8 +122,7 @@
 </ul>
 <hr>
 <pre><code>最后，自我期待我接下来的博文！Thanks for Watching!
-</code></pre><hr>
-<p><div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div></p>
+</code></pre><p><div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div></p>
 <script>
   var cloudTieConfig = {
     url: document.location.href,
