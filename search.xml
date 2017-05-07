@@ -103,17 +103,7 @@
 </ul>
 <hr>
 <pre><code>最后，自我期待我接下来的博文！Thanks for Watching!
-</code></pre><p><div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div></p>
-<script>
-  var cloudTieConfig = {
-    url: document.location.href,
-    sourceId: "",
-    productKey: "710271ff8c664af38443c66b66fa05e4",
-    target: "cloud-tie-wrapper"
-  };
-</script>
-<script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
-]]></content>
+</code></pre>]]></content>
       
         <categories>
             
