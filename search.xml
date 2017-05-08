@@ -3,9 +3,66 @@
   
     
     <entry>
-      <title><![CDATA[Codewars_20170506]]></title>
-      <url>/code/Codewars_20170506/</url>
+      <title><![CDATA[Hello_Atom]]></title>
+      <url>/Hello/Hello-Atom/</url>
       <content type="html"><![CDATA[<a id="more"></a>
+<hr>
+<p><strong><em>Article introduction</em></strong>:This article is to show something I want to say about Atom!</p>
+<hr>
+<h1 id="关于使用Atom的链接："><a href="#关于使用Atom的链接：" class="headerlink" title="关于使用Atom的链接："></a>关于使用Atom的链接：</h1><ul>
+<li><a href="http://flight-manual.atom.io/getting-started/" target="_blank" rel="external"><code>Atom</code>官方文档（en)</a></li>
+<li><a href="https://atom-china.org/t/atom/62" target="_blank" rel="external"><code>Atom China</code>翻译的官方手册中的<code>Atom 基础使用</code></a><h1 id="个性快捷键"><a href="#个性快捷键" class="headerlink" title="个性快捷键"></a>个性快捷键</h1>不包含常用的简单快捷键。<h2 id="文件操作"><a href="#文件操作" class="headerlink" title="文件操作"></a>文件操作</h2></li>
+<li><code>Alt+Cmd+S</code> to save <em>all the open files</em> in Atom.</li>
+<li><code>Cmd+Shift+O</code> to add <em>Project Folder</em>.<h2 id="命令行"><a href="#命令行" class="headerlink" title="命令行"></a>命令行</h2></li>
+<li><code>Cmd+Shift+P</code> to show <em>Command Palette</em>.<h2 id="搜索文件以切换"><a href="#搜索文件以切换" class="headerlink" title="搜索文件以切换"></a>搜索文件以切换</h2></li>
+<li><code>Cmd+B</code> to search through only the <em>files currently opened</em>(“buffers” or open files).</li>
+<li><code>Cmd+Shift+B</code> to search only through the files which are <code>new</code> or have <code>been modified since your last Git commit</code>.<h2 id="在Atom中移动光标"><a href="#在Atom中移动光标" class="headerlink" title="在Atom中移动光标"></a>在Atom中移动<code>光标</code></h2></li>
+<li><code>Alt+Left</code> or <code>Alt+B</code> - Move to the beginning of word.</li>
+<li><code>Alt+Right</code> or <code>Alt+F</code> - Move to the end of word.</li>
+<li><code>Cmd+Left</code> or <code>Ctrl+A</code> - Move to the first character of the current line.</li>
+<li><code>Cmd+Right</code> or <code>Ctrl+E</code> - Move to the end of the line.</li>
+<li><code>Cmd+Up</code> - Move to the top of the file.</li>
+<li><code>Cmd+Down</code> - Move to the bottom of the file.</li>
+<li><code>Ctrl+G</code> - “row:column” to jump to ‘row’ line ‘column’. character.</li>
+<li><code>Cmd+R</code> - to jump to a symbol such as a method definition.</li>
+<li><code>Cmd+F2</code> - to toggle a “bookmark” on the current line.</li>
+<li><code>Ctrl+F2</code> - jump to a “bookmark”.<h2 id="选择"><a href="#选择" class="headerlink" title="选择"></a>选择</h2></li>
+<li><code>Ctrl+L</code> - to select the entire line.</li>
+<li><code>Ctrl+Shift+W</code> - to select the current word.<h2 id="在Atom中操作整行"><a href="#在Atom中操作整行" class="headerlink" title="在Atom中操作整行"></a>在Atom中操作<code>整行</code></h2></li>
+<li><code>Cmd+Ctrl+Up/Down</code> - to move the current line up or down.</li>
+<li><code>Cmd+Shift+D</code> - Duplicate the current line.<h2 id="对当前单词的大小写进行转换"><a href="#对当前单词的大小写进行转换" class="headerlink" title="对当前单词的大小写进行转换"></a>对当前单词的大小写进行转换</h2></li>
+<li><code>Cmd+K</code> <code>Cmd+U</code> - to upper case the current word.</li>
+<li><code>Cmd+K</code> <code>Cmd+L</code> - to lower case the current word.<h2 id="多光标选择"><a href="#多光标选择" class="headerlink" title="多光标选择"></a>多光标选择</h2></li>
+<li><code>Cmd+Click</code> - Add a new cursor at the clicked location.</li>
+<li><code>Ctrl+Shift+Up/Down</code> - Add another cursor above/below the current cursor.</li>
+<li><code>Cmd+D</code> - Select the next word in the document that is the same as the currently selected word.</li>
+<li><code>Cmd+Ctrl+G</code> - Select all words in the document that are the same as the currently selected word.</li>
+<li><code>Cmd+Shift+L</code> - Convert a multi-line selection into multiple cursors.</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Hello </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hello </tag>
+            
+            <tag> Atom </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Codewars_20170506]]></title>
+      <url>/Code/Codewars-20170506/</url>
+      <content type="html"><![CDATA[<a id="more"></a>
+<hr>
 <p><strong><em>Article introduction</em></strong>:This is a article to list Kata in Codewars with my remark that I think it is amazing! All of following Python code is running by Python2.7!</p>
 <hr>
 <h1 id="First-Kata-Don’t-rely-on-luck-6kyu"><a href="#First-Kata-Don’t-rely-on-luck-6kyu" class="headerlink" title="First Kata: Don’t rely on luck.6kyu"></a>First Kata: Don’t rely on luck.<code>6kyu</code></h1><h2 id="Train-details"><a href="#Train-details" class="headerlink" title="Train details:"></a>Train details:</h2><p>请猛戳下方链接看题：</p>
@@ -40,16 +97,16 @@
       
         <categories>
             
-            <category> code </category>
+            <category> Code </category>
             
         </categories>
         
         
         <tags>
             
-            <tag> code </tag>
+            <tag> Code </tag>
             
-            <tag> python </tag>
+            <tag> Python </tag>
             
             <tag> Codewars </tag>
             
@@ -59,8 +116,11 @@
     
     <entry>
       <title><![CDATA[Hello_Hexo]]></title>
-      <url>/life/Hello_Hexo/</url>
+      <url>/Hello/Hello-Hexo/</url>
       <content type="html"><![CDATA[<a id="more"></a>
+<hr>
+<p><strong><em>Article introduction</em></strong>:This article is to show something I want to say about Hexo!</p>
+<hr>
 <p>建立博客的目的：</p>
 <ul>
 <li>是为了将希望记住但不容易记住的东西记住；</li>
@@ -107,14 +167,14 @@
       
         <categories>
             
-            <category> life </category>
+            <category> Hello </category>
             
         </categories>
         
         
         <tags>
             
-            <tag> life </tag>
+            <tag> Hello </tag>
             
             <tag> Hexo </tag>
             
