@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.wpaladins.cn/"/>
-  <updated>2017-05-10T09:14:10.000Z</updated>
+  <updated>2017-05-10T09:16:40.000Z</updated>
   <id>http://blog.wpaladins.cn/</id>
   
   <author>
@@ -17,10 +17,10 @@
   
   <entry>
     <title>Share</title>
-    <link href="http://blog.wpaladins.cn/Uncategorized/Share/"/>
-    <id>http://blog.wpaladins.cn/Uncategorized/Share/</id>
+    <link href="http://blog.wpaladins.cn/Share/Share/"/>
+    <id>http://blog.wpaladins.cn/Share/Share/</id>
     <published>2017-05-10T09:14:10.000Z</published>
-    <updated>2017-05-10T09:14:10.000Z</updated>
+    <updated>2017-05-10T09:16:40.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <hr>
@@ -98,14 +98,14 @@
     
     <summary type="html">
     
-      Empty
+      Share
     
     </summary>
     
-      <category term="Uncategorized" scheme="http://blog.wpaladins.cn/categories/Uncategorized/"/>
+      <category term="Share" scheme="http://blog.wpaladins.cn/categories/Share/"/>
     
     
-      <category term="Empty" scheme="http://blog.wpaladins.cn/tags/Empty/"/>
+      <category term="Share" scheme="http://blog.wpaladins.cn/tags/Share/"/>
     
   </entry>
   
