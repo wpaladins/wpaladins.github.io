@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.wpaladins.cn/"/>
-  <updated>2017-05-24T23:44:32.000Z</updated>
+  <updated>2017-05-24T23:48:13.000Z</updated>
   <id>http://blog.wpaladins.cn/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://blog.wpaladins.cn/Plan-Diary/Plan-Diary-20170525/"/>
     <id>http://blog.wpaladins.cn/Plan-Diary/Plan-Diary-20170525/</id>
     <published>2017-05-24T23:31:45.000Z</published>
-    <updated>2017-05-24T23:44:32.000Z</updated>
+    <updated>2017-05-24T23:48:13.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <hr>
@@ -30,13 +30,19 @@
 <h1 id="Plan"><a href="#Plan" class="headerlink" title="Plan:"></a>Plan:</h1><h2 id="Everyday"><a href="#Everyday" class="headerlink" title="Everyday:"></a>Everyday:</h2><ol>
 <li>Run a kilometer at least.</li>
 <li>Get out of bed before 7:30am.</li>
-<li>Use 1 hour to learn English words by heart at least.<h2 id="Only-Today"><a href="#Only-Today" class="headerlink" title="Only Today:"></a>Only Today:</h2></li>
+<li>Use 1 hour to learn English words by heart at least.</li>
+</ol>
+<h2 id="Only-Today"><a href="#Only-Today" class="headerlink" title="Only Today:"></a>Only Today:</h2><ol>
 <li>学习概率论，大赶进度；</li>
 </ol>
 <hr>
 <hr>
 <h1 id="Diary"><a href="#Diary" class="headerlink" title="Diary:"></a>Diary:</h1><ul>
-<li>Plan realistic situation：<br><code>1</code>、<code>2</code>、</li>
+<li>Plan realistic situation：<ul>
+<li>Everyday: <code>1</code>、<code>2</code>、</li>
+<li>Only Today:</li>
+</ul>
+</li>
 <li>Things add to today：</li>
 <li>What should me do next day：</li>
 </ul>
