@@ -3,8 +3,33 @@
   
     
     <entry>
-      <title><![CDATA[Share]]></title>
+      <title><![CDATA[Share_Key_Combination&Key_Sequence]]></title>
       <url>/Share/Share/</url>
+      <content type="html"><![CDATA[<a id="more"></a>
+<hr>
+<p>原文已经被更名，更名后路径为<a href="http://blog.wpaldins.cn/Share/Share-20170510" target="_blank" rel="external">http://blog.wpaldins.cn/Share/Share-20170510</a></p>
+<p>如果阁下存了书签，请及时更改。</p>
+<hr>
+]]></content>
+      
+        <categories>
+            
+            <category> Share </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Share </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Share_20170510]]></title>
+      <url>/Share/Share-20170510/</url>
       <content type="html"><![CDATA[<a id="more"></a>
 <hr>
 <p><strong><em>Article introduction</em></strong>:时代发展地越来越快，作为一个热血青年，我们已经没有那么多的时间去造轮子了，而是应该利用好先阶段最好的产品，去提高我们工作和生活的效率。这也应该是分享的目的了吧！</p>
@@ -105,12 +130,6 @@
         </categories>
         
         
-        <tags>
-            
-            <tag> Share </tag>
-            
-        </tags>
-        
     </entry>
     
     <entry>
@@ -161,8 +180,6 @@
         
         <tags>
             
-            <tag> Hello </tag>
-            
             <tag> Atom </tag>
             
         </tags>
@@ -170,8 +187,8 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Codewars_20170506]]></title>
-      <url>/Code/Codewars-20170506/</url>
+      <title><![CDATA[Code_Codewars_20170506]]></title>
+      <url>/Code/Code-Codewars-20170506/</url>
       <content type="html"><![CDATA[<a id="more"></a>
 <hr>
 <p><strong><em>Article introduction</em></strong>:This is a article to list Kata in Codewars with my remark that I think it is amazing! All of following Python code is running by Python2.7!</p>
@@ -214,8 +231,6 @@
         
         
         <tags>
-            
-            <tag> Code </tag>
             
             <tag> Python </tag>
             
@@ -284,8 +299,6 @@
         
         
         <tags>
-            
-            <tag> Hello </tag>
             
             <tag> Hexo </tag>
             
