@@ -67,6 +67,47 @@
     </entry>
     
     <entry>
+      <title><![CDATA[Code_Codewars_20170511]]></title>
+      <url>/Code/Code-Codewars-20170511/</url>
+      <content type="html"><![CDATA[<a id="more"></a>
+<hr>
+<p><strong><em>Article introduction</em></strong>: his is a article to list Kata in Codewars with my remark that I think it is amazing! All of following Python code is running by Python2.7!</p>
+<hr>
+<h1 id="First-Kata-Reverse-or-rotate-6kyu"><a href="#First-Kata-Reverse-or-rotate-6kyu" class="headerlink" title="First Kata: Reverse or rotate?6kyu"></a>First Kata: Reverse or rotate?<code>6kyu</code></h1><h2 id="Train-details"><a href="#Train-details" class="headerlink" title="Train details:"></a>Train details:</h2><p>请猛戳下方链接看题：</p>
+<p><a href="https://www.codewars.com/kata/reverse-or-rotate" target="_blank" rel="external">https://www.codewars.com/kata/reverse-or-rotate</a></p>
+<h2 id="My-solution-Did-not-pass"><a href="#My-solution-Did-not-pass" class="headerlink" title="My solution(Did not pass):"></a>My solution(Did not pass):</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">fun</span><span class="params">(strng)</span>:</span></div><div class="line">	a = <span class="string">""</span></div><div class="line">	y = <span class="number">0</span></div><div class="line">	<span class="keyword">for</span> x <span class="keyword">in</span> strng:</div><div class="line">		<span class="keyword">if</span> x == strng[<span class="number">-1</span>]:</div><div class="line">			<span class="keyword">break</span></div><div class="line">		a += strng[y+<span class="number">1</span>]</div><div class="line">		y += <span class="number">1</span></div><div class="line">	a += strng[<span class="number">0</span>]</div><div class="line">	<span class="keyword">return</span> a</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">revrot</span><span class="params">(strng, sz)</span>:</span></div><div class="line">	<span class="comment"># your code</span></div><div class="line">	re = <span class="string">""</span></div><div class="line">	strr = <span class="string">""</span></div><div class="line">	<span class="keyword">if</span> sz &lt;= <span class="number">0</span> <span class="keyword">or</span> strng == <span class="string">""</span> <span class="keyword">or</span> sz &gt; len(strng):</div><div class="line">		<span class="keyword">return</span> re</div><div class="line">	<span class="keyword">else</span>:</div><div class="line">		x = [i <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">0</span>,len(strng)+<span class="number">1</span>,sz)]</div><div class="line">		<span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">0</span>,len(strng)+<span class="number">1</span>,sz):</div><div class="line">			<span class="keyword">if</span> i == x[<span class="number">-1</span>]:</div><div class="line">				<span class="keyword">break</span></div><div class="line">			strr += strng[i:i+sz]</div><div class="line">		<span class="comment">#print strr</span></div><div class="line">		<span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">0</span>,len(strr),sz):</div><div class="line">			sum = <span class="number">0</span></div><div class="line">			<span class="keyword">for</span> x <span class="keyword">in</span> strr[i:sz+i]:</div><div class="line">				sum += int(x)</div><div class="line">			<span class="comment">#print sum</span></div><div class="line">			<span class="keyword">if</span> sum % <span class="number">2</span> == <span class="number">0</span>:</div><div class="line">				re += strr[i:sz+i][::<span class="number">-1</span>]</div><div class="line">			<span class="keyword">else</span>:</div><div class="line">				re += fun(strr[i:sz+i])</div><div class="line">		<span class="keyword">return</span> re</div></pre></td></tr></table></figure>
+<blockquote>
+<ul>
+<li><code>division by zero</code>: 是除数是<code>0</code>导致的错误；</li>
+<li><code>range() step argument must not be zero</code>: <code>range</code>中的<code>step</code>指定为<code>0</code>时导致的错误；</li>
+<li><code>expected an indented block</code>说明此处需要缩进，你只要在出现错误的那一行，按<code>空格</code>或<code>Tab</code>（<strong>但不能混用</strong>）键缩进就行。</li>
+</ul>
+</blockquote>
+<p><strong><em>remark</em></strong>:依然C语言的风格，没通过，贴在这里，希望有能看出问题的帮忙解决一下！</p>
+<h2 id="Amazing-solution-1"><a href="#Amazing-solution-1" class="headerlink" title="Amazing solution 1:"></a>Amazing solution 1:</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">revrot</span><span class="params">(s, n, res=<span class="string">""</span>)</span>:</span></div><div class="line">    <span class="keyword">if</span> <span class="keyword">not</span> s <span class="keyword">or</span> n &lt; <span class="number">1</span> <span class="keyword">or</span> n &gt; len(s):</div><div class="line">        <span class="keyword">return</span> <span class="string">""</span></div><div class="line"></div><div class="line">    <span class="keyword">while</span> len(s) &gt;= n:</div><div class="line">        group = s[:n]</div><div class="line">        <span class="keyword">if</span> sum([int(d)**<span class="number">3</span> <span class="keyword">for</span> d <span class="keyword">in</span> group]) % <span class="number">2</span> == <span class="number">0</span>:</div><div class="line">            res += group[::<span class="number">-1</span>]</div><div class="line">        <span class="keyword">else</span>:</div><div class="line">            res += group[<span class="number">1</span>:] + group[<span class="number">0</span>]</div><div class="line">        s = s[n:]</div><div class="line"></div><div class="line">    <span class="keyword">return</span> res</div></pre></td></tr></table></figure>
+<p><strong><em>remark</em></strong>:这代码才像python呀，学习了！</p>
+<h2 id="Amazing-solution-2"><a href="#Amazing-solution-2" class="headerlink" title="Amazing solution 2:"></a>Amazing solution 2:</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">revrot</span><span class="params">(strng, sz)</span>:</span></div><div class="line">	func = <span class="keyword">lambda</span> x : x[<span class="number">1</span>:] + x[<span class="number">0</span>] <span class="keyword">if</span> sum(int(i) <span class="keyword">for</span> i <span class="keyword">in</span> x) % <span class="number">2</span> <span class="keyword">else</span> x[::<span class="number">-1</span>]</div><div class="line">	<span class="keyword">return</span> <span class="string">""</span> <span class="keyword">if</span> sz &lt;= <span class="number">0</span> <span class="keyword">or</span> sz &gt; len(strng) <span class="keyword">else</span> <span class="string">""</span>.join(func(strng[i:i+sz]) <span class="keyword">for</span> i <span class="keyword">in</span> xrange(<span class="number">0</span>, len(strng) - sz + <span class="number">1</span>, sz))</div></pre></td></tr></table></figure>
+<p><strong><em>remark</em></strong>:强！👍无敌了！</p>
+]]></content>
+      
+        <categories>
+            
+            <category> Code </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Python </tag>
+            
+            <tag> Codewars </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Share_20170510]]></title>
       <url>/Share/Share-20170510/</url>
       <content type="html"><![CDATA[<a id="more"></a>
@@ -230,7 +271,7 @@
       <url>/Code/Code-Codewars-20170506/</url>
       <content type="html"><![CDATA[<a id="more"></a>
 <hr>
-<p><strong><em>Article introduction</em></strong>:This is a article to list Kata in Codewars with my remark that I think it is amazing! All of following Python code is running by Python2.7!</p>
+<p><strong><em>Article introduction</em></strong>: This is a article to list Kata in Codewars with my remark that I think it is amazing! All of following Python code is running by Python2.7!</p>
 <hr>
 <h1 id="First-Kata-Don’t-rely-on-luck-6kyu"><a href="#First-Kata-Don’t-rely-on-luck-6kyu" class="headerlink" title="First Kata: Don’t rely on luck.6kyu"></a>First Kata: Don’t rely on luck.<code>6kyu</code></h1><h2 id="Train-details"><a href="#Train-details" class="headerlink" title="Train details:"></a>Train details:</h2><p>请猛戳下方链接看题：</p>
 <p><a href="https://www.codewars.com/kata/dont-rely-on-luck/" target="_blank" rel="external">https://www.codewars.com/kata/dont-rely-on-luck/</a></p>
