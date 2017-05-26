@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.wpaladins.cn/"/>
-  <updated>2017-05-24T23:48:13.000Z</updated>
+  <updated>2017-05-26T15:33:50.000Z</updated>
   <id>http://blog.wpaladins.cn/</id>
   
   <author>
@@ -16,11 +16,58 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Plan_Dairy_20170526</title>
+    <link href="http://blog.wpaladins.cn/Uncategorized/Plan-Dairy-20170526/"/>
+    <id>http://blog.wpaladins.cn/Uncategorized/Plan-Dairy-20170526/</id>
+    <published>2017-05-26T15:26:42.000Z</published>
+    <updated>2017-05-26T15:33:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<hr>
+<p><strong><em>Article introduction</em></strong>:</p>
+<hr>
+<hr>
+<h1 id="Plan"><a href="#Plan" class="headerlink" title="Plan:"></a>Plan:</h1><h2 id="Everyday"><a href="#Everyday" class="headerlink" title="Everyday:"></a>Everyday:</h2><ol>
+<li>Run a kilometer at least.</li>
+<li>Get out of bed before 7:30am.</li>
+<li>Use 1 hour to learn English words by heart at least.</li>
+</ol>
+<h2 id="Only-Today"><a href="#Only-Today" class="headerlink" title="Only Today:"></a>Only Today:</h2><ol>
+<li>基本完成项目制，写项目任务报告；</li>
+</ol>
+<hr>
+<hr>
+<h1 id="Diary"><a href="#Diary" class="headerlink" title="Diary:"></a>Diary:</h1><ul>
+<li>Plan realistic situation：<ul>
+<li>Everyday:</li>
+<li>Only Today:<code>1</code>、</li>
+</ul>
+</li>
+<li>Things add to today：由于项目进行过程中又遇到了新的错误，所以今天一天将全部的时间浪费在了项目制中。</li>
+<li>What should me do next day：认真完成时间，另外项目中另一同志指出了我急躁的问题，以后尽量改正。</li>
+</ul>
+<hr>
+]]></content>
+    
+    <summary type="html">
+    
+      Empty
+    
+    </summary>
+    
+      <category term="Uncategorized" scheme="http://blog.wpaladins.cn/categories/Uncategorized/"/>
+    
+    
+      <category term="Empty" scheme="http://blog.wpaladins.cn/tags/Empty/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Plan_Diary_20170525</title>
     <link href="http://blog.wpaladins.cn/Plan-Diary/Plan-Diary-20170525/"/>
     <id>http://blog.wpaladins.cn/Plan-Diary/Plan-Diary-20170525/</id>
     <published>2017-05-24T23:31:45.000Z</published>
-    <updated>2017-05-24T23:48:13.000Z</updated>
+    <updated>2017-05-26T15:33:42.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <hr>
@@ -39,12 +86,12 @@
 <hr>
 <h1 id="Diary"><a href="#Diary" class="headerlink" title="Diary:"></a>Diary:</h1><ul>
 <li>Plan realistic situation：<ul>
-<li>Everyday: <code>1</code>、<code>2</code>、</li>
+<li>Everyday:<code>1</code>、<code>2</code>、</li>
 <li>Only Today:</li>
 </ul>
 </li>
-<li>Things add to today：</li>
-<li>What should me do next day：</li>
+<li>Things add to today：由于晚上有部门聚会等，所以没有完成其余的任务。</li>
+<li>What should me do next day：适当调整每日必做任务。</li>
 </ul>
 <hr>
 ]]></content>
@@ -100,6 +147,31 @@
       <category term="Python" scheme="http://blog.wpaladins.cn/tags/Python/"/>
     
       <category term="Codewars" scheme="http://blog.wpaladins.cn/tags/Codewars/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Share</title>
+    <link href="http://blog.wpaladins.cn/Share/Share/"/>
+    <id>http://blog.wpaladins.cn/Share/Share/</id>
+    <published>2017-05-10T09:14:10.000Z</published>
+    <updated>2017-05-24T23:56:08.000Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<hr>
+<p>原文已经被更名，更名后路径为<a href="http://blog.wpaladins.cn/Share/Share-20170510">http://blog.wpaladins.cn/Share/Share-20170510</a></p>
+<p>如果阁下存了书签，请及时更改。</p>
+<hr>
+]]></content>
+    
+    <summary type="html">
+    
+      Empty
+    
+    </summary>
+    
+      <category term="Share" scheme="http://blog.wpaladins.cn/categories/Share/"/>
+    
     
   </entry>
   
@@ -206,31 +278,6 @@
     <summary type="html">
     
       To share some good Websites I often use!
-    
-    </summary>
-    
-      <category term="Share" scheme="http://blog.wpaladins.cn/categories/Share/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Share</title>
-    <link href="http://blog.wpaladins.cn/Share/Share/"/>
-    <id>http://blog.wpaladins.cn/Share/Share/</id>
-    <published>2017-05-10T09:14:10.000Z</published>
-    <updated>2017-05-24T23:56:08.000Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>
-<hr>
-<p>原文已经被更名，更名后路径为<a href="http://blog.wpaladins.cn/Share/Share-20170510">http://blog.wpaladins.cn/Share/Share-20170510</a></p>
-<p>如果阁下存了书签，请及时更改。</p>
-<hr>
-]]></content>
-    
-    <summary type="html">
-    
-      Empty
     
     </summary>
     
