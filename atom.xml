@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.wpaladins.cn/"/>
-  <updated>2017-05-26T23:53:25.000Z</updated>
+  <updated>2017-05-28T01:04:27.000Z</updated>
   <id>http://blog.wpaladins.cn/</id>
   
   <author>
@@ -16,11 +16,64 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Plan_Dairy_20170528</title>
+    <link href="http://blog.wpaladins.cn/Plan-Diary/Plan-Dairy-20170528/"/>
+    <id>http://blog.wpaladins.cn/Plan-Diary/Plan-Dairy-20170528/</id>
+    <published>2017-05-28T00:53:32.000Z</published>
+    <updated>2017-05-28T01:04:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<hr>
+<p><strong><em>Article introduction</em></strong>:</p>
+<hr>
+<h1 id="Plan"><a href="#Plan" class="headerlink" title="Plan:"></a><code>Plan</code>:</h1><h2 id="Everyday"><a href="#Everyday" class="headerlink" title="Everyday:"></a><code>Everyday</code>:</h2><ol>
+<li>Run a kilometer at least.</li>
+<li>Get out of bed before 7:30am.</li>
+<li>Use 1 hour to learn English words by heart at least.</li>
+</ol>
+<h2 id="Only-Today"><a href="#Only-Today" class="headerlink" title="Only Today:"></a><code>Only Today</code>:</h2><ol>
+<li>完成项目制的本周报告并进行提交；</li>
+<li>完成对hexo的进一步配置，最终达到的效果是可以为每个我的分类直接new文档模板，将以后的博文更加模板化；</li>
+<li>继续阅读操作系统教材。</li>
+</ol>
+<hr>
+<hr>
+<h1 id="Diary"><a href="#Diary" class="headerlink" title="Diary:"></a><code>Diary</code>:</h1><ul>
+<li><code>Plan realistic situation</code>：<ul>
+<li><code>Everyday</code>:</li>
+<li><code>Only Today</code>:</li>
+</ul>
+</li>
+<li><code>Things add to today</code>：<br>1.</li>
+<li><code>What should me do next day</code>：<br>1.</li>
+</ul>
+<hr>
+<h1 id="Today’s-good-sentence："><a href="#Today’s-good-sentence：" class="headerlink" title="Today’s good sentence："></a>Today’s good sentence：</h1><blockquote>
+<p>-</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Article introduction&lt;/em&gt;&lt;/strong&gt;:&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;Plan&quot;&gt;&lt;a href=&quot;#Plan&quot; class=&quot;headerlink&quot; title=&quot;P
+    
+    </summary>
+    
+      <category term="Plan_Diary" scheme="http://blog.wpaladins.cn/categories/Plan-Diary/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Plan_Dairy_20170527</title>
-    <link href="http://blog.wpaladins.cn/Uncategorized/Plan-Dairy-20170527/"/>
-    <id>http://blog.wpaladins.cn/Uncategorized/Plan-Dairy-20170527/</id>
+    <link href="http://blog.wpaladins.cn/Plan-Diary/Plan-Dairy-20170527/"/>
+    <id>http://blog.wpaladins.cn/Plan-Diary/Plan-Dairy-20170527/</id>
     <published>2017-05-26T23:45:47.000Z</published>
-    <updated>2017-05-26T23:53:25.000Z</updated>
+    <updated>2017-05-28T01:04:18.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <hr>
@@ -39,39 +92,49 @@
 <h1 id="Diary"><a href="#Diary" class="headerlink" title="Diary:"></a><code>Diary</code>:</h1><ul>
 <li><code>Plan realistic situation</code>：<ul>
 <li><code>Everyday</code>:<code>1</code>、<code>2</code>、</li>
-<li><code>Only Today</code>:</li>
+<li><code>Only Today</code>:<code>1</code>、</li>
 </ul>
 </li>
-<li><code>Things add to today</code>：</li>
-<li><code>What should me do next day</code>：</li>
+<li><code>Things add to today</code>：<ol>
+<li>今天还开了一个社团的会，关于讨论方面我还是不是特别能参与其中，需要向大家学习之后努力改变自己；</li>
+<li>软件定义存储的项目中遇到了一个fatal error，这个错误是我们最开始的错误理解英文资料造成的。由于这个错误被一次巧合的成功蒙蔽了，导致后来的不可浮现让我们摸不到思路，只到另一位兄台的帮助下，重新看指导书才发现了这个致命的错误；</li>
+</ol>
+</li>
+<li><code>What should me do next day</code>：<ol>
+<li>继续好好学习英语，精通英语是非常重要的；</li>
+<li>项目中的感悟：当一件事情已经做得差不多了，但是不够完美的时候，我们就应该重头再来一次，彻底了解每个细节，才能最后把它真正做好。</li>
+</ol>
+</li>
 </ul>
 <hr>
 <h1 id="Today’s-good-sentence："><a href="#Today’s-good-sentence：" class="headerlink" title="Today’s good sentence："></a>Today’s good sentence：</h1><blockquote>
 <ul>
-<li>牛逼的人都是相似的 屌丝各有各的活法。   -《科技相对论》</li>
+<li>牛逼的人都是相似的 屌丝则各有各的活法。   -《科技相对论》</li>
 </ul>
 </blockquote>
 ]]></content>
     
     <summary type="html">
     
-      Empty
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Article introduction&lt;/em&gt;&lt;/strong&gt;:&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;Plan&quot;&gt;&lt;a href=&quot;#Plan&quot; class=&quot;headerlink&quot; title=&quot;P
     
     </summary>
     
-      <category term="Uncategorized" scheme="http://blog.wpaladins.cn/categories/Uncategorized/"/>
+      <category term="Plan_Diary" scheme="http://blog.wpaladins.cn/categories/Plan-Diary/"/>
     
-    
-      <category term="Empty" scheme="http://blog.wpaladins.cn/tags/Empty/"/>
     
   </entry>
   
   <entry>
     <title>Plan_Dairy_20170526</title>
-    <link href="http://blog.wpaladins.cn/Uncategorized/Plan-Dairy-20170526/"/>
-    <id>http://blog.wpaladins.cn/Uncategorized/Plan-Dairy-20170526/</id>
+    <link href="http://blog.wpaladins.cn/Plan-Diary/Plan-Dairy-20170526/"/>
+    <id>http://blog.wpaladins.cn/Plan-Diary/Plan-Dairy-20170526/</id>
     <published>2017-05-26T15:26:42.000Z</published>
-    <updated>2017-05-26T23:47:29.000Z</updated>
+    <updated>2017-05-28T01:05:34.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <hr>
@@ -84,7 +147,7 @@
 <li>Use 1 hour to learn English words by heart at least.</li>
 </ol>
 <h2 id="Only-Today"><a href="#Only-Today" class="headerlink" title="Only Today:"></a>Only Today:</h2><ol>
-<li>基本完成项目制，写项目任务报告。</li>
+<li>基本完成项目制这段时间的任务，写项目任务报告。</li>
 </ol>
 <hr>
 <hr>
@@ -94,22 +157,31 @@
 <li>Only Today:<code>1</code>、</li>
 </ul>
 </li>
-<li>Things add to today：由于项目进行过程中又遇到了新的错误，所以今天一天将全部的时间浪费在了项目制中。</li>
-<li>What should me do next day：认真完成时间，另外项目中另一同志指出了我急躁的问题，以后尽量改正。</li>
+<li>Things add to today：<ol>
+<li>由于项目进行过程中又遇到了新的错误，所以今天一天将全部的时间浪费在了项目制中。</li>
+</ol>
+</li>
+<li>What should me do next day：<ol>
+<li>认真完成时间，另外项目中另一同志指出了我急躁的问题，以后尽量改正。</li>
+</ol>
+</li>
 </ul>
 <hr>
 ]]></content>
     
     <summary type="html">
     
-      Empty
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Article introduction&lt;/em&gt;&lt;/strong&gt;:&lt;/p&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;Plan&quot;&gt;&lt;a href=&quot;#Plan&quot; class=&quot;headerlink&quot; tit
     
     </summary>
     
-      <category term="Uncategorized" scheme="http://blog.wpaladins.cn/categories/Uncategorized/"/>
+      <category term="Plan_Diary" scheme="http://blog.wpaladins.cn/categories/Plan-Diary/"/>
     
-    
-      <category term="Empty" scheme="http://blog.wpaladins.cn/tags/Empty/"/>
     
   </entry>
   
@@ -118,7 +190,7 @@
     <link href="http://blog.wpaladins.cn/Plan-Diary/Plan-Diary-20170525/"/>
     <id>http://blog.wpaladins.cn/Plan-Diary/Plan-Diary-20170525/</id>
     <published>2017-05-24T23:31:45.000Z</published>
-    <updated>2017-05-26T23:47:28.000Z</updated>
+    <updated>2017-05-28T01:06:56.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <hr>
@@ -141,15 +213,26 @@
 <li>Only Today:</li>
 </ul>
 </li>
-<li>Things add to today：由于晚上有部门聚会等，所以没有完成其余的任务。</li>
-<li>What should me do next day：适当调整每日必做任务。</li>
+<li>Things add to today：<ol>
+<li>没有完成其余的任务。</li>
+</ol>
+</li>
+<li>What should me do next day：<ol>
+<li>适当调整每日必做任务。</li>
+</ol>
+</li>
 </ul>
 <hr>
 ]]></content>
     
     <summary type="html">
     
-      Plan_Diary_20170525
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Article introduction&lt;/em&gt;&lt;/strong&gt;: Plan_Diary_20170525&lt;/p&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;Plan&quot;&gt;&lt;a href=&quot;#Plan&quot; cl
     
     </summary>
     
