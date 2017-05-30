@@ -3,6 +3,46 @@
   
     
     <entry>
+      <title><![CDATA[Share_Shopping_List]]></title>
+      <url>/Share/Share-Shopping-List/</url>
+      <content type="html"><![CDATA[<a id="more"></a>
+<hr>
+<p><strong><em>Article introduction</em></strong>:少年，还在不知道为啥而努力？列点我对电子产品的欲望清单来激励自己发奋！</p>
+<hr>
+<h1 id="手机："><a href="#手机：" class="headerlink" title="手机："></a>手机：</h1><ul>
+<li>iPhone7(已经获得)；<br><code>Reason</code>: 不是跟风，世界上最好的手机，必须最先拥有。</li>
+<li>一加3T；<br><code>Reason</code>: 一加手机，产品少，精悍，适合折腾，玩，刷机党必备神器，我曾经痴迷于刷机。</li>
+<li>三星S8；<br><code>Reason</code>: 三星的工艺和设计，让人为之倾倒，漂亮得不能再漂亮了，其他方面当然也是安卓手机阵营中的巨头。</li>
+<li>MOTO Z；<br><code>Reason</code>: 对MOTO的个性化以及防摔，原生等特别喜爱。</li>
+<li>SONY Xperia XZ Premium；<br><code>Reason</code>: SONY的设计也是一种独特的美，这款手机，适合高端大气的人使用，也是特别漂亮。<h1 id="电脑："><a href="#电脑：" class="headerlink" title="电脑："></a>电脑：</h1></li>
+<li>MacBook Pro13英寸，512G版本，最新款（目前拥有一款MacBook Air）；<br><code>Reason</code>: 苹果电脑干净利索。另外，拥有苹果的全系列，互相配合，是一种舒爽的体验。</li>
+<li>ThinkPad X系列（拥有一款老产品X201）；<br><code>Reason</code>: ThinkPad好，没得说。买Windows笔记本就买ThinkPad X系列，别买丧失太多ThinkPad特点的系列机就好，比如E系列。</li>
+<li>Dell 工作站；<br><code>Reason</code>: Dell好，也没得说。Dell的工作站和服务器好，如有机会够买这两种产品，就买Dell的。<h1 id="其他设备："><a href="#其他设备：" class="headerlink" title="其他设备："></a>其他设备：</h1></li>
+<li>【单反相机】Nikon<br><code>Reason</code>: Nikon的单反，那还是得有一个的。</li>
+<li>【平板电脑】iPad Pro 9.7inch 128G WLAN+Cellular版本；<br><code>Reason</code>: 觉得这一款是最合适购买的iPad。另外还是想说，拥有苹果的全系列，互相配合，是一种舒爽的体验。</li>
+<li>【鼠标】罗技MX Anywhere 2；<br><code>Reason</code>: 为有便捷需求的精英用户带来效率。满足对鼠标的几乎所有需求。</li>
+<li>【机械键盘】ANNE PRO GH60/Poker RGB；<br><code>Reason</code>: 机械键盘中的最具有性价比的一款，想买个青轴的。</li>
+<li>【单片机】树莓派；<br><code>Reason</code>: 玩。</li>
+<li>LG曲面屏幕显示器；<br><code>Reason</code>: 拓展屏幕，提高效率。</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Share </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Shopping </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Code_Codewars_20170511]]></title>
       <url>/Code/Code-Codewars-20170511/</url>
       <content type="html"><![CDATA[<a id="more"></a>
@@ -40,25 +80,6 @@
             <tag> Codewars </tag>
             
         </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Share]]></title>
-      <url>/Share/Share/</url>
-      <content type="html"><![CDATA[<a id="more"></a>
-<hr>
-<p>原文已经被更名，更名后路径为<a href="http://blog.wpaladins.cn/Share/Share-20170510">http://blog.wpaladins.cn/Share/Share-20170510</a></p>
-<p>如果阁下存了书签，请及时更改。</p>
-<hr>
-]]></content>
-      
-        <categories>
-            
-            <category> Share </category>
-            
-        </categories>
-        
         
     </entry>
     
@@ -164,6 +185,26 @@
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> Websites </tag>
+            
+            <tag> Movies </tag>
+            
+            <tag> Softwares </tag>
+            
+            <tag> Study </tag>
+            
+            <tag> Podcasts </tag>
+            
+            <tag> Blog </tag>
+            
+            <tag> Apple </tag>
+            
+            <tag> Search </tag>
+            
+        </tags>
         
     </entry>
     
@@ -338,6 +379,25 @@
             <tag> Hexo </tag>
             
         </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Share]]></title>
+      <url>/Share/Share/</url>
+      <content type="html"><![CDATA[<a id="more"></a>
+<hr>
+<p>原文已经被更名，更名后路径为<a href="http://blog.wpaladins.cn/Share/Share-20170510">http://blog.wpaladins.cn/Share/Share-20170510</a></p>
+<p>如果阁下存了书签，请及时更改。</p>
+<hr>
+]]></content>
+      
+        <categories>
+            
+            <category> Share </category>
+            
+        </categories>
+        
         
     </entry>
     
