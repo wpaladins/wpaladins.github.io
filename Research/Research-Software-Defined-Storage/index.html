@@ -12,10 +12,12 @@
 
 
 
-  <meta name="description" content="tags"/>
+  <meta name="description" content="软件定义存储学习笔记（未完待续写）"/>
 
 
 
+
+  <meta name="keywords" content="Storage," />
 
 
 
@@ -29,16 +31,20 @@
 
 
 
-<link rel="canonical" href="http://blog.wpaladins.cn/tags/"/>
+<link rel="canonical" href="http://blog.wpaladins.cn/Research/Research-Software-Defined-Storage/"/>
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="tags">
-<meta property="og:url" content="http://blog.wpaladins.cn/tags/index.html">
+<meta name="description" content="软件定义存储学习笔记（未完待续写）">
+<meta name="keywords" content="Storage">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Research_Software_Defined_Storage">
+<meta property="og:url" content="http://blog.wpaladins.cn/Research/Research-Software-Defined-Storage/index.html">
 <meta property="og:site_name" content="Wpaladins&#39;s Blog">
-<meta property="og:updated_time" content="2017-05-07T09:20:26.000Z">
+<meta property="og:description" content="软件定义存储学习笔记（未完待续写）">
+<meta property="og:updated_time" content="2017-05-31T14:13:33.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tags">
+<meta name="twitter:title" content="Research_Software_Defined_Storage">
+<meta name="twitter:description" content="软件定义存储学习笔记（未完待续写）">
 
 
 <link rel="stylesheet" type="text/css" href="/css/style.css?v=2.4.x" />
@@ -77,7 +83,7 @@
 
 
 
-    <title> Tags · Wpaladins's Blog </title>
+    <title> Research_Software_Defined_Storage · Wpaladins's Blog </title>
   </head>
 
   <body><div id="mobile-navbar" class="mobile-navbar">
@@ -233,14 +239,138 @@
         <div class="content-wrapper">
           <div id="content" class="content">
             
-  <div class="tag-cloud">
-    <div class="tag-cloud-title">
-      18 Tags In Total
-    </div>
-    <div class="tag-cloud-tags">
-      <a href="/tags/Movies/" style="font-size: 16px;">Movies</a> <a href="/tags/Python/" style="font-size: 28px;">Python</a> <a href="/tags/Codewars/" style="font-size: 28px;">Codewars</a> <a href="/tags/Atom/" style="font-size: 16px;">Atom</a> <a href="/tags/Hexo/" style="font-size: 16px;">Hexo</a> <a href="/tags/Websites/" style="font-size: 16px;">Websites</a> <a href="/tags/Softwares/" style="font-size: 16px;">Softwares</a> <a href="/tags/Study/" style="font-size: 16px;">Study</a> <a href="/tags/Podcasts/" style="font-size: 16px;">Podcasts</a> <a href="/tags/Blog/" style="font-size: 16px;">Blog</a> <a href="/tags/Apple/" style="font-size: 16px;">Apple</a> <a href="/tags/Search/" style="font-size: 16px;">Search</a> <a href="/tags/Storage/" style="font-size: 16px;">Storage</a> <a href="/tags/Shopping/" style="font-size: 16px;">Shopping</a>
+  
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          Research_Software_Defined_Storage
+        
+      </h1>
+
+      <div class="post-meta">
+        <span class="post-time">
+          May 31, 2017
+        </span>
+      </div>
+    </header>
+
+    
+    
+  <div class="post-toc" id="post-toc">
+    <h2 class="post-toc-title">Contents</h2>
+    <div class="post-toc-content">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#软件定义存储百科："><span class="toc-text">软件定义存储百科：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#软件定义存储的行业："><span class="toc-text">软件定义存储的行业：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#DELL-EMC-ScaleIO分析："><span class="toc-text">DELL EMC ScaleIO分析：</span></a></li></ol>
     </div>
   </div>
+
+
+    <div class="post-content">
+      
+        <a id="more"></a>
+<hr>
+<p><strong><em>Article introduction</em></strong>:做了一个项目，在此记录！</p>
+<hr>
+<h1 id="软件定义存储百科："><a href="#软件定义存储百科：" class="headerlink" title="软件定义存储百科："></a>软件定义存储百科：</h1><p>引自<a href="http://www.searchstorage.com.cn/whatis/word_6060.htm" target="_blank" rel="external">TechTarget存储</a></p>
+<blockquote>
+<p>软件定义存储（SDS）是一种<code>数据存储方式</code>，所有<code>存储相关的控制工作</code>都仅在<code>相对于物理存储硬件的外部软件中</code>。这个软件<code>不是作为存储设备中的固件</code>，而是在一个<code>服务器上</code>或者<code>作为操作系统（OS）或hypervisor的一部分</code>。</p>
+<p>软件定义存储是一个<code>较大的行业发展趋势</code>，这个行业还包括<code>软件定义网络（SDN）</code>和<code>软件定义数据中心（SDDC）</code>。和SDN情况类似，软件定义存储可以<code>保证系统的存储访问能在一个精准的水平上更灵活地管理</code>。软件定义存储是<code>从硬件存储中抽象出来的</code>，这也意味着它可以变成一个<code>不受物理系统限制的共享池</code>，以便于<code>最有效地利用资源</code>。它还可以<code>通过软件和管理进行部署和供应</code>，也可以通过<code>基于策略的自动化管理来进一步简化</code>。</p>
+</blockquote>
+<p>通过这个百科，我们可以认识到软件定义存储的概念以及它存在的目的和必要性。</p>
+<hr>
+<p><strong><em>我的理解</em></strong>：软件定义存储是为了<code>更加有效地使用硬件资源</code>以及<code>更加安全地存储数据</code>而设计的。实质上就是，通过一个分布式系统地将多台服务器中的硬盘连接在一起，统筹管理，实现了存储的<code>可靠性（冗余性）</code>，<code>高效性（并行提速）</code>等。</p>
+<h1 id="软件定义存储的行业："><a href="#软件定义存储的行业：" class="headerlink" title="软件定义存储的行业："></a>软件定义存储的行业：</h1><p>目前，DELL EMC ScaleIO免费提供使用，所以项目采用了使用这个解决方案。</p>
+<h1 id="DELL-EMC-ScaleIO分析："><a href="#DELL-EMC-ScaleIO分析：" class="headerlink" title="DELL EMC ScaleIO分析："></a>DELL EMC ScaleIO分析：</h1><p>分享两个百度文库中的PPT，中文的，基础功能讲解比较透彻：</p>
+<ol>
+<li>EMC ScaleIO解决方案简介<br><a href="https://wenku.baidu.com/view/a05279e1680203d8cf2f241b" target="_blank" rel="external">https://wenku.baidu.com/view/a05279e1680203d8cf2f241b</a></li>
+<li>EMC_ScaleIO_Server SAN解决方案<br><a href="https://wenku.baidu.com/view/f5a2d0676c175f0e7cd137a0" target="_blank" rel="external">https://wenku.baidu.com/view/f5a2d0676c175f0e7cd137a0</a></li>
+</ol>
+<p>结合官方文档，做起来应该已经不会有太大的问题，这里记录一下我们整个项目中的问题，及解决方案：</p>
+
+      
+    </div>
+
+    
+      
+      
+
+  <div class="post-copyright">
+    <p class="copyright-item">
+      <span>Author: </span>
+      <span>wpaladins</span>
+    </p>
+    <p class="copyright-item">
+      <span>Origin: </span>
+      <a href="http://blog.wpaladins.cn">http://blog.wpaladins.cn</a>
+    </p>
+    <p class="copyright-item">
+      <span>Link: </span>
+      <a href="http://blog.wpaladins.cn/Research/Research-Software-Defined-Storage/">http://blog.wpaladins.cn/Research/Research-Software-Defined-Storage/</a>
+    </p>
+
+    <p class="copyright-item lincese">
+      
+      本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+    </p>
+  </div>
+
+
+
+      
+      
+  <div class="post-reward">
+    <input type="checkbox" name="reward" id="reward" hidden />
+    <label class="reward-button" for="reward">Reward</label>
+    <div class="qr-code">
+      
+      
+        <label class="qr-code-image" for="reward">
+          <img class="image" src="/image/reward/wechat.jpg" title="wechat">
+        </label>
+      
+      
+        <label class="qr-code-image" for="reward">
+          <img class="image" src="/image/reward/alipay.jpg" title="alipay">
+        </label>
+      
+    </div>
+  </div>
+
+    
+
+    
+      <footer class="post-footer">
+        
+          <div class="post-tags">
+            
+              <a href="/tags/Storage/">Storage</a>
+            
+          </div>
+        
+        
+        
+  <nav class="post-nav">
+    
+      <a class="prev" href="/Thinking/Thinking/">
+        <i class="iconfont icon-left"></i>
+        <span class="prev-text nav-default">Thinking_20170517</span>
+        <span class="prev-text nav-mobile">Prev</span>
+      </a>
+    
+    
+      <a class="next" href="/Share/Share-Shopping-List/">
+        <span class="next-text nav-default">Share_Shopping_List</span>
+        <span class="prev-text nav-mobile">Next</span>
+        <i class="iconfont icon-right"></i>
+      </a>
+    
+  </nav>
+
+      </footer>
+    
+
+  </article>
+
 
           </div>
           

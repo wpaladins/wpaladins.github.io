@@ -3,6 +3,71 @@
   
     
     <entry>
+      <title><![CDATA[Thinking_20170517]]></title>
+      <url>/Thinking/Thinking/</url>
+      <content type="html"><![CDATA[<a id="more"></a>
+<hr>
+<p><strong><em>Article introduction</em></strong>: 别喝太多鸡汤，把自己的内心修炼好，自然有奋发向上的力量。</p>
+<hr>
+<h1 id="考研的思考"><a href="#考研的思考" class="headerlink" title="考研的思考"></a>考研的思考</h1><ul>
+<li>社会方面：地位的提升，可以让未来发展的到达的瓶颈期更远<h1 id="英语的思考"><a href="#英语的思考" class="headerlink" title="英语的思考"></a>英语的思考</h1></li>
+<li>第一要务，在当今世界的大环境下，英语是非常重要的<h1 id="马克思的思考"><a href="#马克思的思考" class="headerlink" title="马克思的思考"></a>马克思的思考</h1></li>
+<li>马克思对资本股份制的讨论相当有趣，比如美国中部铁路那段，以后有机会阅读以下相关书籍</li>
+</ul>
+<blockquote>
+<p>老马告诉我们，有人的地方就有阶级，有阶级的地方就有阶级压迫，整个人类社会历史就是一部阶级斗争史，你现在之所以这么苦逼，正是有一些混蛋占有了你的资源，抢走了你的女人和银子，你现在就是要努力奋斗，争取有一天夺回你的女人和银子，顺便抢走混蛋的女人和银子。不然不止你要失去你的女人和银子，你的儿子也要跟着你一块失去他的女人和银子，啊，子子孙孙无穷尽矣！（仅吐槽）</p>
+</blockquote>
+]]></content>
+      
+        <categories>
+            
+            <category> Thinking </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Research_Software_Defined_Storage]]></title>
+      <url>/Research/Research-Software-Defined-Storage/</url>
+      <content type="html"><![CDATA[<a id="more"></a>
+<hr>
+<p><strong><em>Article introduction</em></strong>:做了一个项目，在此记录！</p>
+<hr>
+<h1 id="软件定义存储百科："><a href="#软件定义存储百科：" class="headerlink" title="软件定义存储百科："></a>软件定义存储百科：</h1><p>引自<a href="http://www.searchstorage.com.cn/whatis/word_6060.htm" target="_blank" rel="external">TechTarget存储</a></p>
+<blockquote>
+<p>软件定义存储（SDS）是一种<code>数据存储方式</code>，所有<code>存储相关的控制工作</code>都仅在<code>相对于物理存储硬件的外部软件中</code>。这个软件<code>不是作为存储设备中的固件</code>，而是在一个<code>服务器上</code>或者<code>作为操作系统（OS）或hypervisor的一部分</code>。</p>
+<p>软件定义存储是一个<code>较大的行业发展趋势</code>，这个行业还包括<code>软件定义网络（SDN）</code>和<code>软件定义数据中心（SDDC）</code>。和SDN情况类似，软件定义存储可以<code>保证系统的存储访问能在一个精准的水平上更灵活地管理</code>。软件定义存储是<code>从硬件存储中抽象出来的</code>，这也意味着它可以变成一个<code>不受物理系统限制的共享池</code>，以便于<code>最有效地利用资源</code>。它还可以<code>通过软件和管理进行部署和供应</code>，也可以通过<code>基于策略的自动化管理来进一步简化</code>。</p>
+</blockquote>
+<p>通过这个百科，我们可以认识到软件定义存储的概念以及它存在的目的和必要性。</p>
+<hr>
+<p><strong><em>我的理解</em></strong>：软件定义存储是为了<code>更加有效地使用硬件资源</code>以及<code>更加安全地存储数据</code>而设计的。实质上就是，通过一个分布式系统地将多台服务器中的硬盘连接在一起，统筹管理，实现了存储的<code>可靠性（冗余性）</code>，<code>高效性（并行提速）</code>等。</p>
+<h1 id="软件定义存储的行业："><a href="#软件定义存储的行业：" class="headerlink" title="软件定义存储的行业："></a>软件定义存储的行业：</h1><p>目前，DELL EMC ScaleIO免费提供使用，所以项目采用了使用这个解决方案。</p>
+<h1 id="DELL-EMC-ScaleIO分析："><a href="#DELL-EMC-ScaleIO分析：" class="headerlink" title="DELL EMC ScaleIO分析："></a>DELL EMC ScaleIO分析：</h1><p>分享两个百度文库中的PPT，中文的，基础功能讲解比较透彻：</p>
+<ol>
+<li>EMC ScaleIO解决方案简介<br><a href="https://wenku.baidu.com/view/a05279e1680203d8cf2f241b" target="_blank" rel="external">https://wenku.baidu.com/view/a05279e1680203d8cf2f241b</a></li>
+<li>EMC_ScaleIO_Server SAN解决方案<br><a href="https://wenku.baidu.com/view/f5a2d0676c175f0e7cd137a0" target="_blank" rel="external">https://wenku.baidu.com/view/f5a2d0676c175f0e7cd137a0</a></li>
+</ol>
+<p>结合官方文档，做起来应该已经不会有太大的问题，这里记录一下我们整个项目中的问题，及解决方案：</p>
+]]></content>
+      
+        <categories>
+            
+            <category> Research </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Storage </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Share_Shopping_List]]></title>
       <url>/Share/Share-Shopping-List/</url>
       <content type="html"><![CDATA[<a id="more"></a>
